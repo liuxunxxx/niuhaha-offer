@@ -1,9 +1,11 @@
 {
-  "publication_status": "published",
-  "publication_evidence_ref": "publication-verifier#238e6ff2f83c",
+  "publication_status": "not_published",
+  "publication_evidence_ref": "",
   "order_endpoint_status": "not_configured",
   "issue_intake_status": "configured",
   "issue_intake_url": "https://github.com/liuxunxxx/niuhaha-offer/issues/new?template=order-interest.yml",
+  "diagnostic_issue_intake_url": "https://github.com/liuxunxxx/niuhaha-offer/issues/new?template=diagnostic-interest.yml",
+  "sprint_issue_intake_url": "https://github.com/liuxunxxx/niuhaha-offer/issues/new?template=sprint-interest.yml",
   "public_site_url": "https://liuxunxxx.github.io/niuhaha-offer/",
   "counts_as_income": false,
   "required_next_evidence": [
@@ -11,8 +13,5 @@
     "authorized order intake endpoint",
     "payment evidence",
     "direct delivery cost evidence"
-  ],
-  "publication_url": "https://liuxunxxx.github.io/niuhaha-offer/",
-  "published_at": "2026-06-16T10:05:00Z",
-  "publication_platform": "github_pages"
+  ]
 }

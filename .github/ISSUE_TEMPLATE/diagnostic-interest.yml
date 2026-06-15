@@ -1,0 +1,78 @@
+name: Public-safe diagnostic interest / 公开安全诊断合作意向
+description: Submit paid diagnostic interest / 提交 RMB 1,999 付费诊断意向 without posting private payment or customer data.
+title: "Diagnostic interest: "
+labels:
+  - order-interest
+  - diagnostic-interest
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form only for public-safe initial paid diagnostic interest.
+        中文：此表单仅用于提交公开安全的 RMB 1,999 付费诊断合作意向。
+        Do not post payment data, private student data, passwords, internal records, or non-public customer data.
+        请勿填写付款数据、学生隐私数据、密码、内部记录或非公开客户数据。
+        Diagnostic interest is not income. Payment requests require verified seller, invoice, payment, and cost evidence first.
+        中文：诊断意向不是收入。付款请求必须先完成卖方、发票、付款和成本证据核验。
+  - type: input
+    id: company
+    attributes:
+      label: Company
+      description: Public business or school name. 中文：公开机构或学校名称。
+      placeholder: Ready School
+    validations:
+      required: true
+  - type: input
+    id: buyer_legal_name
+    attributes:
+      label: Buyer legal name
+      description: Legal buyer name if known. 中文：如已知，请填写购买方法定名称。
+      placeholder: Ready Education Ltd
+    validations:
+      required: true
+  - type: input
+    id: business_public_source
+    attributes:
+      label: Business public source
+      description: Public website or profile for the buyer. 中文：购买方公开网站或公开资料页。
+      placeholder: https://example.com
+    validations:
+      required: true
+  - type: dropdown
+    id: package_interest
+    attributes:
+      label: Package interest
+      options:
+        - diagnostic
+    validations:
+      required: true
+  - type: dropdown
+    id: data_authorization_status
+    attributes:
+      label: Data authorization status
+      options:
+        - public-only
+        - sample-data-approved
+        - internal-data-approval-pending
+    validations:
+      required: true
+  - type: dropdown
+    id: authority_confirmed
+    attributes:
+      label: Authority confirmed
+      description: Confirm you have authority to discuss this diagnostic for the buyer. 中文：确认你有权代表购买方讨论该诊断服务。
+      options:
+        - "yes"
+        - "no"
+    validations:
+      required: true
+  - type: dropdown
+    id: consent_to_contact
+    attributes:
+      label: Consent to contact
+      description: Consent to be contacted through your public GitHub profile for this request. 中文：同意通过你的公开 GitHub 资料就此请求联系你。
+      options:
+        - "yes"
+        - "no"
+    validations:
+      required: true

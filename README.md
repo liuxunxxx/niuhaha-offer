@@ -16,6 +16,10 @@ Use the public-safe GitHub issue intake to submit diagnostic, sprint, or mainten
 
 https://github.com/liuxunxxx/niuhaha-offer/issues/new?template=order-interest.yml
 
+Dedicated diagnostic interest:
+
+https://github.com/liuxunxxx/niuhaha-offer/issues/new?template=diagnostic-interest.yml
+
 Dedicated sprint interest:
 
 https://github.com/liuxunxxx/niuhaha-offer/issues/new?template=sprint-interest.yml
