@@ -4,6 +4,7 @@
   "order_endpoint_status": "not_configured",
   "issue_intake_status": "configured",
   "issue_intake_url": "https://github.com/liuxunxxx/niuhaha-offer/issues/new?template=order-interest.yml",
+  "public_site_url": "https://liuxunxxx.github.io/niuhaha-offer/",
   "counts_as_income": false,
   "required_next_evidence": [
     "publication URL and timestamp",

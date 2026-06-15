@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://liuxunxxx.github.io/niuhaha-offer/sitemap.xml
