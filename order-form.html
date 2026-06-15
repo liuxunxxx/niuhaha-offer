@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Order interest form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html">Lead Follow-up Sprint</a>
+    <nav aria-label="Primary">
+      <a href="index.html">Offer</a>
+      <a href="order-form.html">Order interest</a>
+    </nav>
+  </header>
+  <main>
+    <section class="form-shell">
+      <h1>Order interest form</h1>
+      <p>Do not collect submissions until this endpoint is configured: <code>ORDER_INTAKE_ENDPOINT_REQUIRED</code>.</p>
+      <form method="post" action="ORDER_INTAKE_ENDPOINT_REQUIRED">
+        <label>School or business name
+          <input name="company" required autocomplete="organization">
+        </label>
+        <label>Buyer legal name
+          <input name="buyer_legal_name" required autocomplete="organization">
+        </label>
+        <label>Business website or public profile
+          <input name="business_public_source" required type="url" placeholder="https://example.com">
+        </label>
+        <label>Billing contact
+          <input name="billing_contact" required type="email" autocomplete="email">
+        </label>
+        <label>Package interest
+          <select name="package_interest" required>
+            <option value="diagnostic">Paid diagnostic - RMB 1,999</option>
+            <option value="sprint">7-day sprint setup</option>
+            <option value="maintenance">Maintenance</option>
+          </select>
+        </label>
+        <label>Data authorization status
+          <select name="data_authorization_status" required>
+            <option value="public-only">Public information only</option>
+            <option value="sample-data-approved">Sample data approved</option>
+            <option value="internal-data-approval-pending">Internal data approval pending</option>
+          </select>
+        </label>
+        <label class="checkbox">
+          <input name="authority_confirmed" type="checkbox" value="yes" required>
+          I confirm I have authority to discuss this workflow for the buyer.
+        </label>
+        <label class="checkbox">
+          <input name="consent_to_contact" type="checkbox" value="yes" required>
+          I consent to be contacted about this request.
+        </label>
+        <button type="submit">Submit order interest</button>
+      </form>
+      <p class="boundary-note">Payment requests and revenue events require order evidence, payment evidence, cost evidence, buyer/seller legal names, and invoice status. Unpaid submissions are not income.</p>
+    </section>
+
+  </main>
+</body>
+</html>
