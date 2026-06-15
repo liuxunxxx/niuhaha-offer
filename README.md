@@ -7,12 +7,18 @@ Consent-first workflow automation offer for education and training businesses.
 - Offer page: https://liuxunxxx.github.io/niuhaha-offer/
 - Free checklist: https://liuxunxxx.github.io/niuhaha-offer/checklist.html
 - Order form information: https://liuxunxxx.github.io/niuhaha-offer/order-form.html
+- Sprint workspace demo: https://liuxunxxx.github.io/niuhaha-offer/sprint-workspace.html
+- 中文冲刺工作区样例: https://liuxunxxx.github.io/niuhaha-offer/zh-sprint-workspace.html
 
 ## Submit order interest
 
 Use the public-safe GitHub issue intake to submit diagnostic, sprint, or maintenance interest:
 
 https://github.com/liuxunxxx/niuhaha-offer/issues/new?template=order-interest.yml
+
+Dedicated sprint interest:
+
+https://github.com/liuxunxxx/niuhaha-offer/issues/new?template=sprint-interest.yml
 
 Do not post payment data, private student data, passwords, internal records, or non-public customer data. Billing, invoice, and payment evidence are handled only after verified seller setup and scope review.
 
