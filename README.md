@@ -7,6 +7,7 @@ Consent-first workflow automation offer for education and training businesses.
 - Offer page: https://liuxunxxx.github.io/niuhaha-offer/
 - Free checklist: https://liuxunxxx.github.io/niuhaha-offer/checklist.html
 - Order form information: https://liuxunxxx.github.io/niuhaha-offer/order-form.html
+- Paid diagnostic scope: https://liuxunxxx.github.io/niuhaha-offer/diagnostic.html
 - Sprint workspace demo: https://liuxunxxx.github.io/niuhaha-offer/sprint-workspace.html
 - 中文冲刺工作区样例: https://liuxunxxx.github.io/niuhaha-offer/zh-sprint-workspace.html
 
