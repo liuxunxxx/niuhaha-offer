@@ -1,6 +1,6 @@
-name: Public-safe diagnostic interest
-description: Request an initial diagnostic without posting private payment or customer data.
-title: "Diagnostic interest: "
+name: Public-safe order interest
+description: Submit diagnostic, sprint, or maintenance interest without posting private payment or customer data.
+title: "Order interest: "
 labels:
   - order-interest
 body:
