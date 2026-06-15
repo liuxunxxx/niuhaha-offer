@@ -1,0 +1,75 @@
+name: Public-safe diagnostic interest
+description: Request an initial diagnostic without posting private payment or customer data.
+title: "Diagnostic interest: "
+labels:
+  - order-interest
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form only for public-safe initial order interest.
+        Do not post payment data, private student data, passwords, internal records, or non-public customer data.
+  - type: input
+    id: company
+    attributes:
+      label: Company
+      description: Public business or school name.
+      placeholder: Ready School
+    validations:
+      required: true
+  - type: input
+    id: buyer_legal_name
+    attributes:
+      label: Buyer legal name
+      description: Legal buyer name if known.
+      placeholder: Ready Education Ltd
+    validations:
+      required: true
+  - type: input
+    id: business_public_source
+    attributes:
+      label: Business public source
+      description: Public website or profile for the buyer.
+      placeholder: https://example.com
+    validations:
+      required: true
+  - type: dropdown
+    id: package_interest
+    attributes:
+      label: Package interest
+      options:
+        - diagnostic
+        - sprint
+        - maintenance
+    validations:
+      required: true
+  - type: dropdown
+    id: data_authorization_status
+    attributes:
+      label: Data authorization status
+      options:
+        - public-only
+        - sample-data-approved
+        - internal-data-approval-pending
+    validations:
+      required: true
+  - type: dropdown
+    id: authority_confirmed
+    attributes:
+      label: Authority confirmed
+      description: Confirm you have authority to discuss this workflow for the buyer.
+      options:
+        - "yes"
+        - "no"
+    validations:
+      required: true
+  - type: dropdown
+    id: consent_to_contact
+    attributes:
+      label: Consent to contact
+      description: Consent to be contacted through your public GitHub profile for this request.
+      options:
+        - "yes"
+        - "no"
+    validations:
+      required: true
